@@ -15,7 +15,7 @@
                     "FBT_QUIET": 1
                 },
                 "command": "fbt get_blackmagic",
-                "description": "Get Blackmagic device",
+                "description": "Get Blackmagic device"
             }
         }
     ],
@@ -34,12 +34,12 @@
             "rtos": "FreeRTOS",
             "configFiles": [
                 "interface/stlink.cfg",
-                "./debug/stm32wbx.cfg",
+                "./debug/stm32wbx.cfg"
             ],
             "postAttachCommands": [
                 // "compare-sections",
                 "source debug/flipperapps.py",
-                "fap-set-debug-elf-root build/latest/.extapps",
+                "fap-set-debug-elf-root build/latest/.extapps"
                 // "source debug/FreeRTOS/FreeRTOS.py",
                 // "svd_load debug/STM32WB55_CM4.svd"
             ]
@@ -61,7 +61,7 @@
                 "set confirm off",
                 "set mem inaccessible-by-default off",
                 "source debug/flipperapps.py",
-                "fap-set-debug-elf-root build/latest/.extapps",
+                "fap-set-debug-elf-root build/latest/.extapps"
                 // "compare-sections",
             ]
             // "showDevDebugOutput": "raw",
@@ -79,7 +79,7 @@
             "rtos": "FreeRTOS",
             "postAttachCommands": [
                 "source debug/flipperapps.py",
-                "fap-set-debug-elf-root build/latest/.extapps",
+                "fap-set-debug-elf-root build/latest/.extapps"
             ]
             // "showDevDebugOutput": "raw",
         },
@@ -95,12 +95,12 @@
             "rtos": "FreeRTOS",
             "configFiles": [
                 "interface/cmsis-dap.cfg",
-                "./debug/stm32wbx.cfg",
+                "./debug/stm32wbx.cfg"
             ],
             "postAttachCommands": [
                 "source debug/flipperapps.py",
-                "fap-set-debug-elf-root build/latest/.extapps",
-            ],
+                "fap-set-debug-elf-root build/latest/.extapps"
+            ]
             // "showDevDebugOutput": "raw",
         },
         {
